@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Application</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Roboto:300,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/css-website.css" />
+</head> 
+<body>
+
+    <div class="container">
+  
+  
+      <div class="st-container">
+  
+        <input type="radio" name="radio-set"  id="st-control-1" />
+  
+        <input type="radio" name="radio-set" id="st-control-2" />
+  
+        <input type="radio" name="radio-set" id="st-control-3" />
+  
+        <input type="radio" name="radio-set" id="st-control-4" />
+  
+        <input type="radio" name="radio-set" id="st-control-5" />
+
+        <input type="radio" name="radio-set" id="st-control-6" />
+  
+  
+        <div class="st-scroll">
+  
+          <section class="st-panel" id="st-panel-1">
+            <header><ul><li><a>Github Repo</a></li></ul></header>
+            <div class="section-content">
+            <h2>Michael kyere</h2>
+            <h3>Website Application</h3>
+            <p>I'm born and bred in Elephant and Castle, South East London. I am of Ghanaian descent. I'm a keen sportsman who has grown up playing sports for the majority of my life. This has moulded me to be a competitive person who loves challenges.</p><p> I believe a healthy body equals a healthy mind; therefore, I try to workout 3 times per week. I studied Sport and Exercise Science at London South Bank University whilst playing Semi-professional football. I'm a massive fan of crime dramas/thrillers and my all-time favourite series is The Wire; where Idris Elba had his big break. I love to travel and explore different cultures; my goal is to visit 1 new country per year.</p> <p> I also aim to learn French and Spanish in the next 5 years as I believe you learn more about people when conversating in their native tongue.  I'm currently working as a Business Development Consultant for a Food Tech company called Nutritics.</p>
+            <button type="button" class="btn-action" onclick="nextPage()">Next Page ></button>
+            </div>
+          </section>
+  
+          <section class="st-panel st-color" id="st-panel-2">
+            <div class="section-content">
+              <h2>Why Web Development?</h2>
+              <h3>Talk about why you'd like to move into a career as a web developer</h3>
+              <p>My competitive nature and a love for challenges and solving puzzles will help me thrive as a web developer. No day is ever the same as there are always problems to fix and you get a great sense of accomplishment when a task is completed.</p> <p> I love to travel, so the flexibility in being able to work anywhere is what I'm attracted to. The clear career path progression and high earning potential is another reason why I want to be become a successful Web developer. I feel like I haven't lived life, I have just been surviving, and now I want to make a difference and build something that leaves a legacy. The industry is currently booming so there are various opportunities waiting for me.</p> <p> Many of my friends would say that I am a tech geek because I love innovation and I'm always intrigued with new technology.</p>
+              <button type="button" class="btn-action" onclick="nextPage()">Next Page ></button>
+              </div>
+          </section>
+  
+          <section class="st-panel st-color" id="st-panel-3">
+            <div class="section-content">
+              <div class="flex-container">
+                <!-- first row -->
+                <div class="card-container">
+                  <img src="images/project-1.png" alt="project-1 screenshot">
+                  <div class="toggle-area">
+                    <h4><b>Tribute Page</b></h4>
+                    <p>Dr Kwame Nkrumah</p>
+                  </div>
+                  <a href="#" class="btn-action">View Project</a>
+                </div>
+            
+                <div class="card-container">
+                  <img src="images/project-2.png" alt="project-1 screenshot">
+                  <div class="toggle-area">
+                    <h4><b>Project Gallery</b></h4>
+                    <p>Gallery of projects</p>
+                  </div>
+                  <a href="#" class="btn-action">View Project</a>
+                </div>
+                <div class="card-container">
+                  <img src="images/project-3.png" alt="project-1 screenshot">
+                  <div class="toggle-area">
+                    <h4><b>Comment box</b></h4>
+                    <p>Comment form entry</p>
+                  </div>
+                  <a href="#" class="btn-action">View Project</a>
+                </div>
+                <!-- end of first row  -->
+              </div>
+            
+              <div class="flex-container">
+                <!-- second row -->
+                <div class="card-container">
+                  <img src="images/project-4.png" alt="project-1 screenshot">
+                  <div class="toggle-area">
+                    <h4><b>Fruit Shop</b></h4>
+                    <p>Shopping Basket functionality</p>
+                  </div>
+                  <a href="#" class="btn-action">View Project</a>
+                </div>
+                <div class="card-container">
+                  <img src="images/project-5.png" alt="project-1 screenshot">
+                  <div class="toggle-area">
+                    <h4><b>Website</b></h4>
+                    <p>Website application</p>
+                  </div>
+                  <a href="#" class="btn-action">View Project</a>
+                </div>
+                <div class="card-container">
+                  <img src="images/project-6.png" alt="project-1 screenshot">
+                  <div class="toggle-area">
+                    <h4><b>Feature</b></h4>
+                    <p>GTA 5 Inside track racing experience</p>
+                  </div>
+                  <a href="#" class="btn-action" onclick="nextPage()">View Feature</a>
+                </div>
+                <!-- end of second row -->
+              </div>
+            </div>
+          </section>
+
+          <section class="st-panel" id="st-panel-4">
+
+            <div class="text-box">
+            <h2>GTA 5</h2>
+            <h3>Inside Track Racing</h3>
+            <p>Select your Horse for a chance to win!</p>
+            <button type="button" class="btn-action" onclick="nextPage()" style="border: 1px solid #333;">Select Horse</button>
+            </div>
+          </section>
+  
+          <section class="st-panel st-color" id="st-panel-5">
+  
+            <div class="text-box">
+            <h2>Select your Horse</h2>
+            <p>Select a Horse from the list below or add your own horse.</p>
+            <p id="selectedHorse"></p>
+          </div>
+            <ul id="horse-list">
+              <li class="horse-card-1"><img id="snached" onclick="selectHorse(this.getAttribute('id'))" src="images/horse-1.png" /></li>
+              <li class="horse-card-2"><img id="dancin" onclick="selectHorse(this.getAttribute('id'))" src="images/horse-2.png" /></li>
+              <li class="horse-card-3"><img id="tax" onclick="selectHorse(this.getAttribute('id'))" src="images/horse-3.png" /></li>
+              <li class="horse-card-4"><img id="study" onclick="selectHorse(this.getAttribute('id'))" src="images/horse-4.png" /></li>
+              <li class="horse-card-5"><img id="cant" onclick="selectHorse(this.getAttribute('id'))" src="images/horse-5.png" /></li>
+              <li class="horse-card-6"><img id="ol" onclick="selectHorse(this.getAttribute('id'))" src="images/horse-6.png" /></li>
+            </ul>
+            <button id="startBtn" class="btn-action btn-race" type="button" onclick="nextPage()">Start Race!</button>
+          </section>
+  
+          <section class="st-panel st-color" id="st-panel-6">
+  
+            <div class="text-box">
+            <h2 id="winner-name"></h2>
+            <p id="your-result"></p>
+            <p id="selectedHorse"></p>
+            </div>
+            <ul id="track-horses">
+              <li id="horse-1"><img id="horse-snached" src="images/horse1.png" /></li>
+              <li id="horse-2"><img id="horse-dancin" src="images/horse2.png" /></li>
+              <li id="horse-3"><img id="horse-tax" src="images/horse3.png" /></li>
+              <li id="horse-4"><img id="horse-study" src="images/horse4.png" /></li>
+              <li id="horse-5"><img id="horse-cant" src="images/horse5.png" /></li>
+              <li id="horse-6"><img id="horse-ol" src="images/horse6.png" /></li>
+            </ul>
+          </section>
+  
+        </div><!-- // st-scroll -->
+  
+      </div><!-- // st-container -->
+  
+    </div>
+
+
+  <footer>
+    <p>Portions of this content are ©2022</p>
+  </footer>
+  <script type="text/javascript" src="js/script-website.js"></script>
+</body>
+</html>
+
+
+
