@@ -106,14 +106,14 @@ p {
 } 
 
 #st-panel-4 {
-	background-image: url('/images/VinewoodRacetrack-GTAV.webp');
+	background-image: url('../images/VinewoodRacetrack-GTAV.webp');
 }
 #st-panel-5 {
-	background-image: url('/images/GTA-Online-Inside-Race-Übersicht.jpg');
+	background-image: url('../images/GTA-Online-Inside-Race-Übersicht.jpg');
 	background-position: top;
 }
 #st-panel-6 {
-	background-image: url('/images/racetrack.png');
+	background-image: url('../images/racetrack.png');
 	background-position: top;
 }
 
